@@ -1,0 +1,21 @@
+#conteiner{
+    text-align: center;
+}
+#line1{
+    width: 100%;
+    display: block;
+    display: flex;
+    justify-content: center;
+}
+#result{
+    width: 317px;
+    height: 65px;
+    text-align: right;
+    font-size: 40px;
+}
+input{
+    width: 70px;
+    height: 70px;
+    font-size: x-large;
+    margin: 5px;
+}

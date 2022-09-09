@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="robots" content="noindex,nofollow">
+        <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+        <title>電卓js課題</title>
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        <div id="conteiner">
+            <!-- 1行目 -->
+            <div id="line1">
+                <div id="resultDisplay">
+                    <input id="result" readonly type="text" value="">
+                </div>
+            </div>
+            <!-- 2行目 -->
+            <div class="button">
+                <input type = "button" value="7" onclick="pad_click(7)">
+                <input type = "button" value="8" onclick="pad_click(8)">
+                <input type = "button" value="9" onclick="pad_click(9)">
+                <input type = "button" value="c" onclick="pad_click('c')">
+            </div>
+            <!-- 3行目 -->
+            <div class="button">
+                <input type = "button" value="4" onclick="pad_click(4)">
+                <input type = "button" value="5" onclick="pad_click(5)">
+                <input type = "button" value="6" onclick="pad_click(6)">
+                <input type = "button" value="*" onclick="pad_click('*')">
+            </div>
+            <!-- 4行目 -->
+            <div class="button">
+                <input type = "button" value="1" onclick="pad_click(1)">
+                <input type = "button" value="2" onclick="pad_click(2)">
+                <input type = "button" value="3" onclick="pad_click(3)">
+                <input type = "button" value="/" onclick="pad_click('/')">
+            </div>
+            <!-- 5行目 -->
+            <div class="button">
+                <input type = "button" value="0" onclick="pad_click(0)">
+                <input type = "button" value="-" onclick="pad_click('-')">
+                <input type = "button" value="+" onclick="pad_click('+')">
+                <input type = "button" value="=" onclick="pad_click('=')">
+            </div>
+        </div>
+
+        <script src="main.js"></script>
+    </body>
+</html>
